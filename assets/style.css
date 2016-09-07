@@ -1,0 +1,210 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-font-smoothing: subpixel-antialiased;
+  background-color: #f2f2f2;
+  font-family: 'Source Sans Pro';
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+svg {
+  display: block;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.Site {
+	width: 100%;
+	overflow: hidden;
+}
+
+.Timetable {
+}
+
+.Timetable text {
+  fill: #fff;
+  font-size: 13px;
+}
+
+.TimetableAxes {
+  background-color: #56aadf;
+}
+
+/*
+.axis-top .week-ticks .tick {
+  stroke: #4b98c9;
+}
+.axis-top .grid--week .day-ticks .tick {
+  stroke: #4b98c9;
+}
+
+*/
+
+.Chart-timeAxes .domain {
+  stroke: transparent;
+}
+
+.Chart-timeAxes text {
+  fill: #b4b4b4;
+}
+
+.tick line {
+  stroke: #f0f0f0;
+}
+
+.month .Chart-monthAxis .tick line {
+  stroke: #e6e6e6;
+}
+
+.month .Chart-dayAxis .tick line {
+  stroke: #f0f0f0;
+}
+
+.month .Chart-hourAxis .tick line {
+  stroke: transparent;
+}
+
+.week .Chart-monthAxis .tick line {
+  stroke: transparent;
+}
+
+.week .Chart-dayAxis .tick line {
+  stroke: #e6e6e6;
+}
+
+.week .Chart-hourAxis .tick line {
+  stroke: #e6e6e6;
+}
+
+.day .Chart-hourAxis .tick line {
+  stroke: #e6e6e6;
+}
+
+.Chart-resourceAxis text {
+  fill: #c4c4c4;
+}
+
+.Chart-resourceAxis .domain {
+  stroke: transparent;
+}
+
+.Chart-resourceAxis .tick line {
+  stroke: #e6e6e6;
+}
+
+/*
+.canvas .timetree__grid.grid--month .day-ticks .tick {
+  stroke: #f0f0f0;
+}
+.canvas .timetree__grid.grid--week .day-ticks .tick {
+  stroke: #e6e6e6;
+}
+*/
+
+.TimetableControls {
+  font-size: 0;
+  background-color: #ffffff;
+  border-top: 1px solid #ebebeb;
+  height: 4rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: right;
+}
+
+.TimetableControls-button {
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  margin: 0;
+  background: transparent;
+  height: 4rem;
+  padding: 0 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #b8b8b8;
+}
+
+.TimetableControls-button:hover {
+  color: #ff9865;
+}
+
+.TimetableControls-button:focus {
+  outline: none;
+}
+
+.TimetableControls-button:not(:first-child) {
+  border-left: 1px solid #ebebeb;
+}
